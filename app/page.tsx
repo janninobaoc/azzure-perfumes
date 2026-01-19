@@ -27,11 +27,10 @@ export default function LandingPage() {
       <motion.main style={{ y: yTransform }}>
         <Welcome />
         <About />
-        {/* Uncomment additional sections as needed */}
-        {/* <Decorative/>
+        <Decorative/>
         <Products/>
         <PromotionalBanner/>
-        <Features/>
+        {/* <Features/>
         <Products2/>
         <Decorative/>
         <Gallery/> */}

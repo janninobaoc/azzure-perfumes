@@ -27,21 +27,21 @@ const Navbar = () => {
             <div className="flex justify-between items-center px-14 sm:px-8 md:px-16 py-4">
                 {/* Logo */}
                 <div className="px-4 py-2 sm:px-6 sm:py-3 rounded-full bg-[rgba(155,221,253,0.5)]">
-                    <span className="text-xl sm:text-2xl font-serif text-gray-800">
+                    <span className="text-xl sm:text-2xl text-gray-800 font-medium">
                         azzure
                     </span>
                 </div>
 
                 {/* Desktop Nav */}
                 <nav className="hidden md:flex items-center gap-12 rounded-full bg-[rgba(155,221,253,0.5)]">
-                    <div className="flex items-center gap-6 px-6 py-3">
-                        <a href="/" className="px-4 py-2 rounded-full bg-white shadow hover:bg-gray-100 text-gray-700 transition">
+                    <div className="flex items-center gap-10 px-6 py-3">
+                        <a href="/" className="px-4 py-2 rounded-full bg-white shadow hover:bg-gray-100 text-gray-700 transition text-lg font-medium">
                             Home
                         </a>
-                        <a href="/story" className="text-gray-700 hover:text-gray-900 transition">
+                        <a href="/story" className="text-gray-700 hover:text-gray-900 transition text-lg font-medium">
                             Our Story
                         </a>
-                        <a href="/shop" className="text-gray-700 hover:text-gray-900 transition">
+                        <a href="/shop" className="text-gray-700 hover:text-gray-900 transition text-lg font-medium">
                             Shop
                         </a>
                     </div>
@@ -64,13 +64,13 @@ const Navbar = () => {
             {isOpen && (
                 <div className="md:hidden px-14 pb-6">
                     <div className="flex flex-col gap-4 rounded-2xl bg-[rgba(155,221,253,0.5)] p-6">
-                        <a href="/" className="text-gray-800 font-medium">
+                        <a href="/" className="text-gray-800 text-lg font-medium">
                             Home
                         </a>
-                        <a href="/story" className="text-gray-800 font-medium">
+                        <a href="/story" className="text-gray-800 text-lg font-medium">
                             Our Story
                         </a>
-                        <a href="/shop" className="text-gray-800 font-medium">
+                        <a href="/shop" className="text-gray-800 text-lg font-medium">
                             Shop
                         </a>
 

@@ -12,6 +12,8 @@ const Welcome = () => {
         { id: 1, image: '/img/perfume-1.png' },
         { id: 2, image: '/img/perfume-2.png' },
         { id: 3, image: '/img/perfume-3.png' },
+        { id: 4, image: '/img/perfume-4.png' },
+        { id: 5, image: '/img/perfume-5.png' },
     ];
 
     const nextSlide = () => {
@@ -123,7 +125,7 @@ const Welcome = () => {
                     <p className="
                         text-sm
                         sm:text-base
-                        md:text-xl
+                        md:text-2xl
                         text-white
                         mb-3
                         sm:mb-4
@@ -137,7 +139,6 @@ const Welcome = () => {
                         sm:text-3xl
                         md:text-5xl
                         lg:text-6xl
-                        font-serif
                         font-bold
                         text-white
                         leading-tight
@@ -149,12 +150,12 @@ const Welcome = () => {
                 {/* Button on the right */}
                 <a
                     href="/shop"
-                    className="    w-full sm:w-auto
+                    className="w-full sm:w-auto
                     text-center
                     px-8 py-3 md:px-12 md:py-4
                     bg-white rounded-full shadow-lg
                     text-gray-900 font-medium
-                    hover:bg-gray-100 transition"
+                    hover:bg-gray-100 transition text-md md:text-lg text-transform: uppercase"
                 >
                     Shop Now
                 </a>

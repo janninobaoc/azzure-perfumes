@@ -5,7 +5,7 @@ const About = () => {
         <section className="max-w-7xl mx-6 sm:mx-10 md:mx-16 my-16 sm:my-20 md:my-24">
             <div className="flex flex-col items-start">
                 {/* Header */}
-                <h2 className="text-[16px] sm:text-[18px] md:text-[20px] mb-3 sm:mb-4 text-[#695F4F]">
+                <h2 className="text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4 text-[#695F4F]">
                     Our Mission - Your Impact
                 </h2>
 
@@ -33,7 +33,7 @@ const About = () => {
                     shadow
                     hover:bg-[#695F4F]
                     hover:text-white
-                    transition
+                    transition text-md md:text-lg text-transform: uppercase
                 ">
                     Read More
                 </button>
